@@ -8,7 +8,7 @@ public class CabInvoice
 	private static final double MINIMUM_FARE = 5;
 	
 	/**
-	 * calculates fare for one ride
+	 * calculates fare for a ride
 	 * @param distance
 	 * @param time
 	 * @return

@@ -10,12 +10,19 @@ public class InvoiceSummary {
 	private final int numOfRides;
 	private final double totalFare;
 	private final double averageFare;
+	
+	/**
+	 * parameterized constructor to initialize 
+	 * @param numOfRides
+	 * @param totalFare
+	 */
 	public InvoiceSummary(int numOfRides, double totalFare) {
 		this.numOfRides = numOfRides;
 		this.totalFare = totalFare;
 		this.averageFare = this.totalFare/this.numOfRides;
 	}
 	
+	//overrides equal method
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)

@@ -1,7 +1,7 @@
 package com.bridgelabz.maven.invoicegenerator;
 
 /**
- * object that contains factors for fare
+ * object that contains factors(distance,time) for fare
  * @author mohammad.musthafa_ym
  *
  */

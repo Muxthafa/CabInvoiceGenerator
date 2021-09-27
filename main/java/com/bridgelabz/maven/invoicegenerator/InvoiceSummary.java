@@ -2,6 +2,7 @@ package com.bridgelabz.maven.invoicegenerator;
 
 /**
  * summary of rides fare with attributes
+ * includes for normal as well as premium rides
  * @author mohammad.musthafa_ym
  *
  */

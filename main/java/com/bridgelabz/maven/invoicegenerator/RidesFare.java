@@ -1,5 +1,10 @@
 package com.bridgelabz.maven.invoicegenerator;
 
+/**
+ * object that contains factors for fare
+ * @author mohammad.musthafa_ym
+ *
+ */
 public class RidesFare {
 
 	double distance;

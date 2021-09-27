@@ -28,8 +28,9 @@ public class CabInvoiceTest
     @Test
     public void givenDistanceAndTimeForMultipleRidesShouldReturnAggregate() {
     	RidesFare[] rides = { new RidesFare(5.0,5), new RidesFare(2.0,3)};
-    	double fare = invoiceGenerator.calculateFare(rides);
-    	Assert.assertEquals(78.0, fare, 0.0);
+    	InvoiceSummary summary = invoiceGenerator.calculateFare(rides);
+    	InvoiceSummary expectedInvoiceSummary = new InvoiceSummary(2,78.0);
+    	Assert.assertEquals(expectedInvoiceSummary,summary);
     }
     
 }
